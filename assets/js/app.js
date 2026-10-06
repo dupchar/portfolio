@@ -696,9 +696,9 @@
 
     const tags = [...new Set(all.map((p) => p.tag))];
     if (tags.length > 1) {
-      const chip = (value, label, n) =>
-        el("button", { class: "chip", type: "button", "aria-pressed": String(value === filter), "data-filter": value }, label, el("sup", {}, pad(n)));
-      filtersRoot.append(chip("all", "Tout", all.length), ...tags.map((t) => chip(t, t, all.filter((p) => p.tag === t).length)));
+      const chip = (value, label) =>
+        el("button", { class: "chip", type: "button", "aria-pressed": String(value === filter), "data-filter": value }, label);
+      filtersRoot.append(chip("all", "Tout"), ...tags.map((t) => chip(t, t)));
       filtersRoot.addEventListener("click", (e) => {
         const btn = e.target.closest("[data-filter]");
         if (!btn || btn.dataset.filter === filter) return;
