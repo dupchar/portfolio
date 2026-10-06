@@ -549,7 +549,7 @@
         io.disconnect();
         load(`${BASE}assets/js/vendor/three.min.js?v=9`)
           .then(() => load(`${BASE}assets/js/vendor/GLTFLoader.js?v=9`))
-          .then(() => load(`${BASE}assets/js/gear3d.js?v=22`))
+          .then(() => load(`${BASE}assets/js/gear3d.js?v=23`))
           .then(() => document.fonts.ready)
           .then(() => window.initGear && window.initGear(section))
           .catch(() => section.classList.add("no-webgl"));

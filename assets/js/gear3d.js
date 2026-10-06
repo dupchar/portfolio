@@ -412,7 +412,7 @@ window.initGear = (root) => {
       return { model: g, animate: (t) => moves.forEach((m) => m(t)), height: h, spin: false, view: { y: size.y * 0.5, dist: h * 4.7, tilt: 0.14 } };
     },
     async evo() {
-      const [arm, tripod] = await Promise.all([loadGLB("/assets/models/evo.glb?v=2"), loadGLB("/assets/models/evo-tripod.glb?v=2")]);
+      const [arm, tripod] = await Promise.all([loadGLB("/assets/models/evo.glb?v=3"), loadGLB("/assets/models/evo-tripod.glb?v=2")]);
       tune(arm);
       tune(tripod);
       const moves = [
