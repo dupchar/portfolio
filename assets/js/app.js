@@ -350,7 +350,7 @@
           gsap.to(loop, { timeScale: direction, duration: 1.2, delay: 0.3, ease: "power2.out", overwrite: false });
         });
       }
-      gsap.to(track.parentElement, {
+      gsap.to(track, {
         skewX: -4,
         ease: "none",
         scrollTrigger: { trigger: track.parentElement, start: "top bottom", end: "bottom top", scrub: true },
