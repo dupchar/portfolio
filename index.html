@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js" data-page="home">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charles Dupont | Opérateur Phantom & Motion control — Paris</title>
+<meta name="description" content="Charles Dupont, opérateur caméra Phantom (haute vitesse) et motion control (robotique) basé à Paris. Pubs, clips, mode, fiction.">
+<link rel="canonical" href="https://www.charles-dupont.fr/">
+<meta property="og:title" content="Charles Dupont | Opérateur Phantom & Motion control — Paris">
+<meta property="og:description" content="Charles Dupont, opérateur caméra Phantom (haute vitesse) et motion control (robotique) basé à Paris. Pubs, clips, mode, fiction.">
+<meta property="og:image" content="https://www.charles-dupont.fr/assets/img/og-image.jpg">
+<meta property="og:url" content="https://www.charles-dupont.fr/">
+<meta property="og:site_name" content="Charles Dupont">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#070707">
+<link rel="icon" type="image/jpeg" sizes="32x32" href="assets/img/favicon-32.jpg">
+<link rel="icon" type="image/jpeg" sizes="192x192" href="assets/img/favicon-192.jpg">
+<link rel="apple-touch-icon" href="assets/img/favicon-180.jpg">
+<script>
+(function (h) {
+  // Version de prévisualisation sur GitHub Pages : pas d'indexation par les moteurs de recherche
+  if (location.hostname.endsWith("github.io")) {
+    var m = document.createElement("meta");
+    m.name = "robots";
+    m.content = "noindex, nofollow";
+    document.head.appendChild(m);
+  }
+  h.classList.remove("no-js");
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) h.classList.add("reduced");
+  try {
+    var s = sessionStorage;
+    if (s.getItem("cd-nav")) { h.classList.add("is-entering"); s.removeItem("cd-nav"); }
+    else if (h.dataset.page === "home" && !s.getItem("cd-seen") && !h.classList.contains("reduced")) h.classList.add("is-first");
+    s.setItem("cd-seen", "1");
+  } catch (e) {}
+})(document.documentElement);
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/css/style.css?v=20">
+<link rel="preload" as="image" href="assets/video/loops/hero.jpg">
+</head>
+<body>
+
+<div class="loader" aria-hidden="true">
+  <div class="loader__top mono"><span class="rec">REC</span><span>Charles Dupont — Showreel</span></div>
+  <div class="loader__inner">
+    <div class="loader__count">
+      <span class="loader__num" data-loader-num>0000</span>
+      <span class="loader__meta mono">Images / seconde<br>Chargement</span>
+    </div>
+    <div class="loader__bar"><span data-loader-bar></span></div>
+  </div>
+</div>
+
+<div class="curtain" aria-hidden="true"><div class="curtain__label"><span></span></div></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"><div class="cursor__ring"><span class="cursor__label">Lire</span></div><div class="cursor__dot"></div></div>
+
+<header class="hdr">
+  <a class="logo" href="./" aria-label="Charles Dupont — accueil">
+    <span class="logo__mark" aria-hidden="true">CD</span>
+    <span class="logo__name">Charles Dupont<small>Phantom · Motion control</small></span>
+  </a>
+  <nav class="nav" aria-label="Navigation principale">
+      <a href="phantom/">Phantom</a>
+      <a href="motion-control/">Motion control</a>
+      <a href="autres-projets/">Autres projets</a>
+    <a href="#contact">Contact</a>
+    <span class="nav__clock" data-clock aria-hidden="true">PARIS --:--:--</span>
+  </nav>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu"><span></span><span></span></button>
+</header>
+
+<div class="menu" id="menu">
+  <ul class="menu__links">
+    <li><a href="./" aria-current="page"><small>00</small>Accueil</a></li>
+      <li><a href="phantom/"><small>01</small>Phantom</a></li>
+      <li><a href="motion-control/"><small>02</small>Motion control</a></li>
+      <li><a href="autres-projets/"><small>03</small>Autres projets</a></li>
+  </ul>
+  <div class="menu__foot mono">
+    <a href="https://www.instagram.com/dupchar/" target="_blank" rel="noopener">Instagram — @dupchar</a>
+    <a href="mailto:dupontcharles.pro@gmail.com">dupontcharles.pro@gmail.com</a>
+    <span>Paris, France</span>
+  </div>
+</div>
+
+<main>
+  <section class="hero" aria-label="Introduction">
+    <div class="hero__media" data-hero-media>
+      <video autoplay muted loop playsinline poster="assets/video/loops/hero.jpg">
+        <source src="assets/video/loops/hero.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="hud mono" aria-hidden="true">
+      <span class="hud__corner hud__corner--tl"></span><span class="hud__corner hud__corner--tr"></span>
+      <span class="hud__corner hud__corner--bl"></span><span class="hud__corner hud__corner--br"></span>
+      <span class="hud__cross"></span>
+      <div class="hud__row hud__row--top"><span class="rec">REC</span><span class="hud__fps">Phantom — High speed</span><span class="hud__tc" data-timecode>00:00:00:00</span></div>
+    </div>
+    <div class="hero__content">
+      <h1 class="hero__title xl" data-hero-title>Charles<br>Dupont</h1>
+      <div class="hero__sub">
+        <p class="hero__jobs" data-hero-sub><span>Phantom OPV</span><i aria-hidden="true"></i><span>Motion control</span></p>
+        <span class="hero__place mono" data-hero-sub>Opérateur caméra — Paris, France</span>
+      </div>
+    </div>
+    <div class="scroll-cue mono" aria-hidden="true"><span>Scroll</span><span></span></div>
+  </section>
+
+  <section class="words" data-words aria-label="Mes métiers">
+    <div class="words__media" aria-hidden="true">
+      <video muted loop playsinline preload="auto" poster="assets/video/loops/phantom-beauty.jpg" data-src="assets/video/loops/phantom-beauty.mp4"></video>
+      <video muted loop playsinline preload="none" poster="assets/video/loops/motion.jpg" data-src="assets/video/loops/motion.mp4"></video>
+    </div>
+    <div class="words__stage">
+      <p class="words__item xl"><small>01 — Ultra haute vitesse</small>Phantom</p>
+      <p class="words__item xl">L'instant<br>étiré.</p>
+      <p class="words__item xl"><small>02 — Robotique</small>Motion<br>control</p>
+      <p class="words__item xl">Le geste<br>répété.</p>
+      <p class="words__item xl">À l'image<br>près.</p>
+    </div>
+    <div class="words__frame mono" aria-hidden="true">
+      <span class="words__frames">Frame <span data-frames>0000</span></span>
+      <span class="words__progress"><span data-words-bar></span></span>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="about">
+      <p class="eyebrow mono">À propos</p>
+      <div>
+        <p class="about__text" data-words-reveal>Opérateur caméra basé à Paris, je travaille avec les caméras haute vitesse <em>Phantom</em> et les bras robotiques de <em>motion control</em>. Je capture ce que l'œil ne voit pas&nbsp;: l'instant étiré à l'extrême et le mouvement reproduit à l'identique, prise après prise.</p>
+        <dl class="about__meta mono" data-reveal>
+          <div><dt>Spécialités</dt><dd>Phantom · Motion control</dd></div>
+          <div><dt>Terrains</dt><dd>Pub · Mode · Clip · Fiction</dd></div>
+          <div><dt>Basé à</dt><dd>Paris — France</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="section gear" data-gear aria-labelledby="gear-title">
+    <div class="gear__head">
+      <h2 class="gear__title xl" id="gear-title" data-split>Le matériel<br>que j'utilise</h2>
+      <p class="mono" style="color:var(--mute);max-width:34ch" data-reveal>Les caméras et les robots avec lesquels je tourne. Faites glisser pour les faire pivoter.</p>
+    </div>
+    <div class="gear__list">
+      <article class="gear__item" data-model="flex">
+        <div class="gear__stage"><canvas aria-hidden="true"></canvas><span class="gear__hint mono" aria-hidden="true">↔ Glisser</span></div>
+        <div class="gear__info">
+          <p class="gear__kicker mono">01 — Caméra haute vitesse</p>
+          <h3 class="gear__name">Phantom Flex4K</h3>
+          <p class="gear__desc">Caméra cinéma ultra haute vitesse : la 4K à des centaines d'images par seconde, pour étirer l'instant et révéler la matière.</p>
+          <dl class="gear__specs mono">
+            <div><dt>Capteur</dt><dd>4K Super 35</dd></div>
+            <div><dt>Cadence</dt><dd>Jusqu'à 938 i/s en 4K</dd></div>
+          </dl>
+        </div>
+      </article>
+      <article class="gear__item" data-model="colossus">
+        <div class="gear__stage"><canvas aria-hidden="true"></canvas><span class="gear__hint mono" aria-hidden="true">↔ Glisser</span></div>
+        <div class="gear__info">
+          <p class="gear__kicker mono">02 — Bras robotique cinéma</p>
+          <h3 class="gear__name">Robot 3100</h3>
+          <p class="gear__desc">Grand bras robotique de motion control : des mouvements rapides, programmés et répétables au millimètre, du macro au plan large.</p>
+          <dl class="gear__specs mono">
+            <div><dt>Portée</dt><dd>3,1 m</dd></div>
+            <div><dt>Charge</dt><dd>22 kg</dd></div>
+            <div><dt>Vitesse</dt><dd>4 m/s</dd></div>
+          </dl>
+        </div>
+      </article>
+      <article class="gear__item" data-model="evo">
+        <div class="gear__stage"><canvas aria-hidden="true"></canvas><span class="gear__hint mono" aria-hidden="true">↔ Glisser</span></div>
+        <div class="gear__info">
+          <p class="gear__kicker mono">03 — Bras robotique compact</p>
+          <h3 class="gear__name">Robot 850</h3>
+          <p class="gear__desc">Bras robotique compact et transportable, programmé ou guidé à la main, pour emmener le motion control partout.</p>
+          <dl class="gear__specs mono">
+            <div><dt>Portée</dt><dd>0,85 m</dd></div>
+            <div><dt>Charge</dt><dd>5 kg</dd></div>
+            <div><dt>Vitesse</dt><dd>2 m/s</dd></div>
+          </dl>
+        </div>
+      </article>
+    </div>
+  </section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track"><div class="marquee__group"><span class="marquee__item xl">Phantom</span><svg class="marquee__star" viewBox="0 0 40 40" aria-hidden="true"><path fill="currentColor" d="M20 0l2.6 17.4L40 20l-17.4 2.6L20 40l-2.6-17.4L0 20l17.4-2.6z"/></svg><span class="marquee__item xl marquee__item--outline">Motion control</span><svg class="marquee__star" viewBox="0 0 40 40" aria-hidden="true"><path fill="currentColor" d="M20 0l2.6 17.4L40 20l-17.4 2.6L20 40l-2.6-17.4L0 20l17.4-2.6z"/></svg><span class="marquee__item xl">High speed</span><svg class="marquee__star" viewBox="0 0 40 40" aria-hidden="true"><path fill="currentColor" d="M20 0l2.6 17.4L40 20l-17.4 2.6L20 40l-2.6-17.4L0 20l17.4-2.6z"/></svg><span class="marquee__item xl marquee__item--outline">Robotique</span><svg class="marquee__star" viewBox="0 0 40 40" aria-hidden="true"><path fill="currentColor" d="M20 0l2.6 17.4L40 20l-17.4 2.6L20 40l-2.6-17.4L0 20l17.4-2.6z"/></svg></div><div class="marquee__group"><span class="marquee__item xl">Phantom</span><svg class="marquee__star" viewBox="0 0 40 40" aria-hidden="true"><path fill="currentColor" d="M20 0l2.6 17.4L40 20l-17.4 2.6L20 40l-2.6-17.4L0 20l17.4-2.6z"/></svg><span class="marquee__item xl marquee__item--outline">Motion control</span><svg class="marquee__star" viewBox="0 0 40 40" aria-hidden="true"><path fill="currentColor" d="M20 0l2.6 17.4L40 20l-17.4 2.6L20 40l-2.6-17.4L0 20l17.4-2.6z"/></svg><span class="marquee__item xl">High speed</span><svg class="marquee__star" viewBox="0 0 40 40" aria-hidden="true"><path fill="currentColor" d="M20 0l2.6 17.4L40 20l-17.4 2.6L20 40l-2.6-17.4L0 20l17.4-2.6z"/></svg><span class="marquee__item xl marquee__item--outline">Robotique</span><svg class="marquee__star" viewBox="0 0 40 40" aria-hidden="true"><path fill="currentColor" d="M20 0l2.6 17.4L40 20l-17.4 2.6L20 40l-2.6-17.4L0 20l17.4-2.6z"/></svg></div></div>
+</div>
+
+  <section class="section" aria-labelledby="disc-title">
+    <div class="disc__head">
+      <h2 class="disc__title xl" id="disc-title" data-split>Mes<br>terrains</h2>
+      <p class="mono" style="color:var(--mute);max-width:32ch" data-reveal>Trois univers, une obsession&nbsp;: l'image parfaite. Choisissez une catégorie pour voir les projets.</p>
+    </div>
+    <div class="disc__list">
+    <a class="disc__panel" href="phantom/" data-cat="phantom" data-cursor="Voir">
+      <div class="disc__media">
+        <img src="assets/video/loops/phantom-beauty.jpg" alt="" loading="lazy">
+        <video muted loop playsinline preload="none" data-src="assets/video/loops/phantom-beauty.mp4"></video>
+      </div>
+      <div class="disc__inner">
+        <div class="disc__top mono"><span>01</span><span><span data-count="phantom">—</span> projets</span></div>
+        <div>
+          <span class="mono" style="color:var(--mute)">Ultra haute vitesse</span>
+          <h3 class="disc__name xl">Phantom</h3>
+          <p class="disc__desc">Caméras haute vitesse Phantom : l'instant étiré, la matière révélée, ce que l'œil ne voit pas.</p>
+          <span class="arrow-link">Voir les projets <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
+        </div>
+      </div>
+    </a>
+    <a class="disc__panel" href="motion-control/" data-cat="motion" data-cursor="Voir">
+      <div class="disc__media">
+        <img src="assets/video/loops/motion.jpg" alt="" loading="lazy">
+        <video muted loop playsinline preload="none" data-src="assets/video/loops/motion.mp4"></video>
+      </div>
+      <div class="disc__inner">
+        <div class="disc__top mono"><span>02</span><span><span data-count="motion">—</span> projets</span></div>
+        <div>
+          <span class="mono" style="color:var(--mute)">Robotique</span>
+          <h3 class="disc__name xl">Motion control</h3>
+          <p class="disc__desc">Bras robotique et mouvements de caméra programmés, répétables à l'identique, prise après prise.</p>
+          <span class="arrow-link">Voir les projets <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
+        </div>
+      </div>
+    </a>
+    <a class="disc__panel" href="autres-projets/" data-cat="autres" data-cursor="Voir">
+      <div class="disc__media">
+        <img src="assets/video/loops/autres-lemaire.jpg" alt="" loading="lazy">
+        <video muted loop playsinline preload="none" data-src="assets/video/loops/autres-lemaire.mp4"></video>
+      </div>
+      <div class="disc__inner">
+        <div class="disc__top mono"><span>03</span><span><span data-count="autres">—</span> projets</span></div>
+        <div>
+          <span class="mono" style="color:var(--mute)">Clips · Fiction · Mode</span>
+          <h3 class="disc__name xl">Autres projets</h3>
+          <p class="disc__desc">Clips, fictions, défilés, publicités et émissions : le reste de mon travail sur les plateaux.</p>
+          <span class="arrow-link">Voir les projets <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></span>
+        </div>
+      </div>
+    </a>
+    </div>
+  </section>
+
+  <section class="reel" data-reel aria-labelledby="reel-title">
+    <div class="reel__head">
+      <h2 class="reel__title xl" id="reel-title" data-split>Sélection</h2>
+      <p class="mono" style="color:var(--mute)" data-reveal>Quelques projets récents — cliquez pour lire</p>
+    </div>
+    <div class="reel__track" data-reel-track></div>
+  </section>
+</main>
+
+<footer class="ftr" id="contact">
+  <div class="ftr__eyebrow mono"><span>Contact</span><span>Disponible pour vos tournages</span></div>
+  <h2 class="ftr__cta xl" data-split>Un projet&nbsp;?<br>Parlons-en.</h2>
+  <div class="ftr__links">
+    <a class="ftr__link" href="https://www.instagram.com/dupchar/" target="_blank" rel="noopener" data-cursor>
+      <span><span class="ftr__label mono">Instagram</span><span class="ftr__value">@dupchar</span></span>
+      <span class="ftr__arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 18 18 6M8 6h10v10"/></svg></span>
+    </a>
+    <div class="ftr__link">
+      <a href="mailto:dupontcharles.pro@gmail.com" data-cursor><span class="ftr__label mono">Mail</span><span class="ftr__value ftr__value--mail">dupontcharles.pro@gmail.com</span></a>
+      <a class="ftr__arrow" href="mailto:dupontcharles.pro@gmail.com" aria-label="Écrire un mail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 18 18 6M8 6h10v10"/></svg></a>
+    </div>
+  </div>
+  <button class="ftr__copy mono" type="button" data-copy="dupontcharles.pro@gmail.com">Copier l'adresse mail</button>
+  <div class="ftr__bottom mono">
+    <span>© <span data-year>2026</span> Charles Dupont — Paris</span>
+    <span data-clock>PARIS --:--:--</span>
+    <button class="ftr__top" type="button" data-top>Retour en haut ↑</button>
+  </div>
+  <p class="ftr__giant xl" aria-hidden="true" data-fit>Charles Dupont</p>
+</footer>
+
+<script src="assets/js/vendor/gsap.min.js?v=20" defer></script>
+<script src="assets/js/vendor/ScrollTrigger.min.js?v=20" defer></script>
+<script src="assets/js/vendor/lenis.min.js?v=20" defer></script>
+<script src="assets/js/projects.js?v=20" defer></script>
+<script src="assets/js/app.js?v=20" defer></script>
+</body>
+</html>

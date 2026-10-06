@@ -1,0 +1,6 @@
+# Pris en compte uniquement par les hébergeurs Apache (OVH, o2switch, Hostinger...).
+ErrorDocument 404 /404.html
+
+# Anciennes adresses (site Wix puis première version statique)
+RedirectMatch 301 ^/portfolio/?$ /autres-projets/
+RedirectMatch 301 ^/(phantom|motion-control|autres-projets)$ /$1/
