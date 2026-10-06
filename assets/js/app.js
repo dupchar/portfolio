@@ -764,7 +764,6 @@
         "button",
         { class: "prow__btn", type: "button", "data-cursor": "Lire", onclick: () => player.open(list, i) },
         el("span", { class: "prow__thumb" }, el("img", { src: thumb(p), alt: "", loading: "lazy" }), el("span", { class: "pcard__tag mono" }, p.tag)),
-        el("span", { class: "prow__num mono" }, pad(i + 1)),
         el("span", { class: "prow__title" }, p.title),
         el("span", { class: "prow__client prow__muted" }, p.client),
         el("span", { class: "prow__tag prow__muted mono" }, p.tag),
@@ -792,7 +791,6 @@
           el(
             "span",
             { class: "pcard__info" },
-            el("span", { class: "pcard__num mono" }, pad(i + 1)),
             el("span", {}, el("span", { class: "pcard__title" }, p.title), el("span", { class: "pcard__client" }, p.client))
           )
         )

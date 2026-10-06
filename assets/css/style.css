@@ -1496,7 +1496,7 @@ html.is-first .loader {
   position: relative;
   width: 100%;
   display: grid;
-  grid-template-columns: 56px minmax(0, 1fr) minmax(0, 0.7fr) 110px 80px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.7fr) 110px 80px;
   align-items: center;
   gap: 20px;
   padding: clamp(18px, 2vw, 30px) 12px;
@@ -2112,7 +2112,7 @@ html.is-first .loader {
 
 @media (max-width: 1024px) {
   .prow__btn {
-    grid-template-columns: 44px minmax(0, 1fr) 90px 64px;
+    grid-template-columns: minmax(0, 1fr) 90px 64px;
   }
 
   .prow__client {
