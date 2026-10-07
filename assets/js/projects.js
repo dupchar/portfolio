@@ -18,6 +18,7 @@ window.PROJECTS = [
   /* ---------------- MOTION CONTROL ---------------- */
   { category: "motion", tag: "Clip", type: "file", id: "c115cc_8e381ba8dc074edd9977580209b6e245", file: "angele-vl-instinct-2026-new-album-teaser.mp4", title: "Instinct", client: "Angèle — Teaser album 2026", duration: "00:37", featured: true },
   { category: "motion", tag: "Pub", type: "file", id: "c115cc_2923e0f4a92146c9939c90e7fe94c03a", file: "director-s-cut-new-product-dior.mp4", title: "Director's Cut", client: "Dior — New product", duration: "00:46" },
+  { category: "motion", tag: "Pub", type: "file", id: "la-mer-spark-rejuvenation", file: "la-mer-spark-rejuvenation-oily-skin.mp4", title: "Spark Rejuvenation", client: "La Mer — The Balancing Collection", duration: "00:15" },
   { category: "motion", tag: "Pub", type: "file", id: "c115cc_5d691be4198c43ddbf0a7642efc6c195", file: "neyu-taupe-edition-polene.mp4", title: "Neyu — Taupe", client: "Polène", duration: "00:16", featured: true },
   { category: "motion", tag: "Pub", type: "file", id: "c115cc_bee492fea1c1476598f77144e1aee91f", file: "mokki-mini-camel-edition-polene.mp4", title: "Mokki Mini — Camel", client: "Polène", duration: "00:13", featured: true },
   { category: "motion", tag: "Pub", type: "file", id: "c115cc_4a686713847e460d9b3ee20138f74cdb", file: "numero-neuf-mini-chalk-edition-polene.mp4", title: "Numéro Neuf Mini — Chalk", client: "Polène", duration: "00:16", featured: true },
