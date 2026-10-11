@@ -4,3 +4,15 @@ ErrorDocument 404 /404.html
 # Anciennes adresses (site Wix puis première version statique)
 RedirectMatch 301 ^/portfolio/?$ /autres-projets/
 RedirectMatch 301 ^/(phantom|motion-control|autres-projets)$ /$1/
+
+# La page d'attente de l'hébergeur (index.php) ne doit pas passer devant le site
+DirectoryIndex index.html
+
+# Une seule adresse : https://www.charles-dupont.fr
+# Le HTTPS est géré en amont d'Apache : on se fie à X-Forwarded-Proto (%{HTTPS} vaut toujours « off »).
+# La validation du certificat Let's Encrypt reste accessible telle quelle.
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https [OR]
+RewriteCond %{HTTP_HOST} !^www\.charles-dupont\.fr$ [NC]
+RewriteRule ^ https://www.charles-dupont.fr%{REQUEST_URI} [R=301,L]
